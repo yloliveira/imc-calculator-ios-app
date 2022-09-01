@@ -25,8 +25,8 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I9h-7U-s69" userLabel="LabelView">
                                         <rect key="frame" x="0.0" y="0.0" width="428" height="387"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calcular IMC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AXi-Qw-271">
-                                                <rect key="frame" x="90.333333333333329" y="169.33333333333334" width="247.33333333333337" height="48"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calcular IMC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AXi-Qw-271">
+                                                <rect key="frame" x="90.333333333333329" y="169.66666666666666" width="247.33333333333337" height="48"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="40"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -134,7 +134,7 @@
                                         <rect key="frame" x="0.0" y="700.33333333333337" width="428" height="147.66666666666663"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I3e-sA-wCO">
-                                                <rect key="frame" x="20" y="55" width="388" height="38"/>
+                                                <rect key="frame" x="20" y="89.666666666666629" width="388" height="38"/>
                                                 <color key="backgroundColor" red="0.30588235289999999" green="0.80000000000000004" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                                                 <color key="tintColor" red="0.30588235289999999" green="0.80000000000000004" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                                                 <state key="normal" title="Button"/>
@@ -146,7 +146,7 @@
                                             </button>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstItem="I3e-sA-wCO" firstAttribute="centerY" secondItem="Ec3-h1-gzW" secondAttribute="centerY" id="1F1-LR-UF2"/>
+                                            <constraint firstAttribute="bottom" secondItem="I3e-sA-wCO" secondAttribute="bottom" constant="20" id="3Um-29-PGg"/>
                                             <constraint firstAttribute="trailing" secondItem="I3e-sA-wCO" secondAttribute="trailing" constant="20" id="K7A-W8-eNf"/>
                                             <constraint firstItem="I3e-sA-wCO" firstAttribute="leading" secondItem="Ec3-h1-gzW" secondAttribute="leading" constant="20" id="c6N-1L-Ja9"/>
                                         </constraints>
