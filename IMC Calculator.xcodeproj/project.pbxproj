@@ -58,13 +58,37 @@
 			children = (
 				C45472CE28C111FE00DB72A1 /* AppDelegate.swift */,
 				C45472D028C111FE00DB72A1 /* SceneDelegate.swift */,
-				C45472D228C111FE00DB72A1 /* ViewController.swift */,
-				C45472D428C111FE00DB72A1 /* Main.storyboard */,
-				C45472D728C1120100DB72A1 /* Assets.xcassets */,
-				C45472D928C1120100DB72A1 /* LaunchScreen.storyboard */,
+				C45472E428C1321000DB72A1 /* Model */,
+				C45472E228C131C600DB72A1 /* View */,
+				C45472E328C131D000DB72A1 /* Controller */,
 				C45472DC28C1120100DB72A1 /* Info.plist */,
 			);
 			path = "IMC Calculator";
+			sourceTree = "<group>";
+		};
+		C45472E228C131C600DB72A1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C45472D728C1120100DB72A1 /* Assets.xcassets */,
+				C45472D928C1120100DB72A1 /* LaunchScreen.storyboard */,
+				C45472D428C111FE00DB72A1 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C45472E328C131D000DB72A1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C45472D228C111FE00DB72A1 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C45472E428C1321000DB72A1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
