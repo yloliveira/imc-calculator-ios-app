@@ -69,7 +69,7 @@
                                                                     <constraint firstItem="8jd-x3-aCF" firstAttribute="centerY" secondItem="guv-5Z-Wzc" secondAttribute="centerY" id="dCi-4E-fZB"/>
                                                                 </constraints>
                                                             </stackView>
-                                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1.25" minValue="0.0" maxValue="2.5" translatesAutoresizingMaskIntoConstraints="NO" id="GHx-if-jdF">
+                                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1.75" minValue="1" maxValue="2.5" translatesAutoresizingMaskIntoConstraints="NO" id="GHx-if-jdF">
                                                                 <rect key="frame" x="-2" y="25.333333333333371" width="392" height="31"/>
                                                                 <color key="tintColor" red="0.30588235289999999" green="0.80000000000000004" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <color key="thumbTintColor" red="0.30588235289999999" green="0.80000000000000004" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
