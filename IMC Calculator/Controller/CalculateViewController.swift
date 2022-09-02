@@ -40,11 +40,9 @@ class CalculateViewController: UIViewController {
     
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        print(segue.identifier!)
         if segue.identifier! == "Calculate_Result" {
-            if let destination = segue.destination as? ResultViewController {
-                destination.bmi = bmi
-            }
+            let destination = segue.destination as! ResultViewController
+            destination.bmi = bmi
         }
     }
     
