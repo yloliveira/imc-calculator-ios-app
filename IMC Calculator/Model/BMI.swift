@@ -1,5 +1,5 @@
 //
-//  BMIBrain.swift
+//  BMI.swift
 //  IMC Calculator
 //
 //  Created by Yan Oliveira on 02/09/22.
