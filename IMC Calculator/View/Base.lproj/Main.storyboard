@@ -274,8 +274,11 @@
                             <constraint firstItem="pq8-eM-ygA" firstAttribute="leading" secondItem="fsB-hq-Rr9" secondAttribute="leading" id="qKZ-FF-vbS"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="LZc-ZC-hPH"/>
                     <connections>
+                        <outlet property="mainView" destination="VNp-nV-cu9" id="5MX-Ki-PcE"/>
                         <outlet property="resultLabel" destination="rHC-Bn-MnU" id="BMC-7D-Z8k"/>
+                        <outlet property="textLabel" destination="Jzq-V1-Gp5" id="hWr-QN-Wkv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gDK-hC-WqI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

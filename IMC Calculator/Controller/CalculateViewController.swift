@@ -44,6 +44,8 @@ class CalculateViewController: UIViewController {
         if segue.identifier! == "Calculate_Result" {
             if let destination = segue.destination as? ResultViewController {
                 destination.bmiValue = bmi
+                destination.text = "Parabéns, você está em seu peso ideal!"
+                destination.backgroundColor = UIColor(red: 198/255, green: 255/255, blue: 189/255, alpha: 1)
             }
         }
     }
