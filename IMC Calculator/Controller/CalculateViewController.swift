@@ -17,7 +17,7 @@ class CalculateViewController: UIViewController {
     let HEIGHT_UNIT = "m"
     let WEIGHT_UNIT = "kg"
     
-    var bmi: String?
+    var bmi: BMI?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,9 +43,7 @@ class CalculateViewController: UIViewController {
         print(segue.identifier!)
         if segue.identifier! == "Calculate_Result" {
             if let destination = segue.destination as? ResultViewController {
-                destination.bmiValue = bmi
-                destination.text = "Parabéns, você está em seu peso ideal!"
-                destination.backgroundColor = UIColor(red: 198/255, green: 255/255, blue: 189/255, alpha: 1)
+                destination.bmi = bmi
             }
         }
     }
@@ -55,7 +53,8 @@ class CalculateViewController: UIViewController {
         let weight = weightSlider.value
         
         let result = weight / pow(height, 2)
-        bmi = String(format: "%.2f", result)
+        
+        bmi = BMI(value: result)
         
         performSegue(withIdentifier: "Calculate_Result", sender: self)
     }
