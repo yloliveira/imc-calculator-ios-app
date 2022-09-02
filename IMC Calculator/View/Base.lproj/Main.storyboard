@@ -41,7 +41,7 @@
                                         <rect key="frame" x="0.0" y="387.33333333333326" width="428" height="313"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="U4e-Pg-1gC">
-                                                <rect key="frame" x="20" y="91.000000000000043" width="388" height="130.66666666666663"/>
+                                                <rect key="frame" x="20" y="91.3333333333333" width="388" height="130.66666666666663"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="17e-Kp-ZjW" userLabel="Height Stack View">
                                                         <rect key="frame" x="0.0" y="0.0" width="388" height="55.333333333333336"/>
@@ -69,8 +69,8 @@
                                                                     <constraint firstItem="8jd-x3-aCF" firstAttribute="centerY" secondItem="guv-5Z-Wzc" secondAttribute="centerY" id="dCi-4E-fZB"/>
                                                                 </constraints>
                                                             </stackView>
-                                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="GHx-if-jdF">
-                                                                <rect key="frame" x="-2" y="25.333333333333258" width="392" height="31"/>
+                                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1.25" minValue="0.0" maxValue="2.5" translatesAutoresizingMaskIntoConstraints="NO" id="GHx-if-jdF">
+                                                                <rect key="frame" x="-2" y="25.333333333333371" width="392" height="31"/>
                                                                 <color key="tintColor" red="0.30588235289999999" green="0.80000000000000004" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <color key="thumbTintColor" red="0.30588235289999999" green="0.80000000000000004" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <connections>
@@ -86,7 +86,7 @@
                                                         </constraints>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="xVI-dD-zaM" userLabel="Weight Stack View">
-                                                        <rect key="frame" x="0.0" y="75.333333333333258" width="388" height="55.333333333333343"/>
+                                                        <rect key="frame" x="0.0" y="75.333333333333371" width="388" height="55.333333333333343"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="OdO-oj-lNt">
                                                                 <rect key="frame" x="0.0" y="0.0" width="388" height="20.333333333333332"/>
@@ -111,7 +111,7 @@
                                                                     <constraint firstAttribute="trailing" secondItem="Lzb-O6-VYN" secondAttribute="trailing" id="det-pU-hQH"/>
                                                                 </constraints>
                                                             </stackView>
-                                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="dTZ-j0-kGl">
+                                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="100" minValue="1" maxValue="200" translatesAutoresizingMaskIntoConstraints="NO" id="dTZ-j0-kGl">
                                                                 <rect key="frame" x="-2" y="25.333333333333371" width="392" height="31"/>
                                                                 <color key="tintColor" red="0.30588235289999999" green="0.80000000000000004" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <color key="thumbTintColor" red="0.30588235289999999" green="0.80000000000000004" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -179,7 +179,7 @@
                     <connections>
                         <outlet property="heightLabel" destination="amY-IJ-z65" id="IK2-d2-Arw"/>
                         <outlet property="heightSlider" destination="GHx-if-jdF" id="cRN-jz-cjA"/>
-                        <outlet property="weightLabel" destination="amY-IJ-z65" id="2K1-lX-qdC"/>
+                        <outlet property="weightLabel" destination="Lzb-O6-VYN" id="K2g-E6-vJY"/>
                         <outlet property="weightSlider" destination="dTZ-j0-kGl" id="7Dn-qW-cOV"/>
                     </connections>
                 </viewController>
